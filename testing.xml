@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Testing" parallel="classes">
+    <test name="testing login page">
+        <classes>
+            <class name="tests.checkboxesTest"/>
+            <class name="tests.NavbarTest"/>
+            <class name="tests.LoginTestCase"/>
+            <class name="tests.KeyPressesTest"/>
+        </classes>
+
+
+    </test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
